@@ -6,7 +6,7 @@ const LS = {
   set: (k,v) => localStorage.setItem("ghost_"+k, JSON.stringify(v))
 };
 
-const WEBHOOK_URL = "https://https://wawebhook-onaduapn.b4a.run/";
+const WEBHOOK_URL = "https://wa-webhook-production-ec48.up.railway.app";
 
 const G = `
   @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
